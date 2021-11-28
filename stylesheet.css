@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+/* Nav Bar */
+
+nav {
+    position: fixed;
+    background-color: #ded3e2;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    padding: 9px 0;
+}
+
+.nav-right {
+    float: right;
+    padding-left: 42px;
+    font-size: 14px;
+    display: block;
+}
+
+.nav-right a {
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    margin: 0 -2px;
+    padding: 16px 13px;
+}
+
+.nav-right a:hover {
+    background-color: #cfb8cf;
+    color: white;
+    transition: all 0.5s;
+}
+
+.nav-right a:active {
+    color: black;
+    transition: none;
+}
+
+/* Profile */
+.profile {
+    position: relative;
+    top: 50px;
+    height: 539px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.prof {
+    display: flex;
+    align-items: center;
+    padding: 11% 0;
+}
+
+.prof-right {
+    float: right;
+    width: 40%;
+}
+
+.prof-right img {
+    width: 80%;
+    float: right;
+}
+
+.prof-left {
+    float: left;
+    width: 60%;
+}
+
+.prof-left p,a {
+    margin: 30px 0;
+    line-height: 120%;
+}
+
+.prof-left .desc {
+    font-size: 99%;
+    line-height: 180%;
+}
+
+.prof-left .head {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.prof-left .name {
+    font-size: 260%;
+    font-weight: bold;
+}
+
+.prof-left a {
+    font-size: 14px;
+    background-color: #EDE8EF;
+    padding-left: 26.56px;
+    height: 65px;
+    width: 170px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 7px 9px rgb(151, 151, 151);
+}
+
+.prof-left a:hover {
+    background-color: #cebcce;
+    color: white;
+    transition: all 0.5s;
+}
+
+.prof-left a:active {
+    color: black;
+}
+
+/* Experience */
+.ex-top {
+    position: relative;
+    top: 50px;
+    height: 179.75px;
+    background-image: url(img/bg/1.png);
+    background-size: cover;
+}
+
+#experiences {
+    height: 1250px;
+    background-image: url(img/bg/2.png);
+}
+
+.ex-bot {
+    background-image: url(img/bg/3.png);
+    height: 179.75px;
+}
+
+#experiences .container {
+    position: relative;
+    top: 70px;
+}
+
+#experiences h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#experiences p {
+    font-weight: bold;
+}
+
+/* bootcamp */
+.camp {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing:content-box;
+}
+
+.kursus {
+    width: 190px;
+    margin: 20px 50px 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.course {
+    background-color: white;
+    height: 85px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 1px black;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.course img {
+    width: 120px;
+    margin-top: 25px;
+}
+
+.course .bekalin {
+    height: 40px;
+    background-color: #0B213C;
+}
+
+.camp404 {
+    padding-top: 7px;
+}
+
+.kursus p {
+    width: 160px;
+    font-size: 10px;
+    margin: 20px auto;
+}
+
+/* project */
+#projects {
+    position: relative;
+    height: 60px;
+}
+
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing:content-box;
+}
+
+.projects {
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+
+.cmp {
+    margin-top: 50px;
+}
+
+.project img {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px 1px black;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.projects p {
+    width: 400px;
+    font-size: 13px;
+    margin: 20px auto;
+}
+
+/* contact */
+#contact {
+    background-color:white;
+    position: relative;
+    top: -16px;
+    padding: 50px 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.contact-left {
+    float: left;
+    width: 40%;
+}
+
+.contact-right {
+    width: 60%;
+    float: right;
+}
+
+.contact-right img{
+    float: right;
+    width: 70%;
+}
+
+.contact p {
+    margin: 7px 0 30px 0;
+}
+
+.contact a {
+    background-color: #EDE8EF;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 3px 5px black;
+    font-size: 14px;
+}
+
+.contact a:hover {
+    background-color: #e3d8e7;
+}
+
+.contact a:active {
+    box-shadow: none;
+    background-color: #cabfce;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+/* footer */
+footer {
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* sav/bav */
+.sav,.bav {
+    background-color: #ded3e2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: none;
+}
+
+.sav img, .bav img {
+    width: 60%;
+}
+
+.sav p, .bav p {
+    padding-right: 10%;
+    font-size: 19px;
+}

@@ -1,0 +1,11 @@
+@media all and (min-width: 1229px) {
+    .bav {
+        display: flex;
+    }
+}
+
+@media all and (max-width: 1175px) {
+    .sav {
+        display: flex;
+    }
+}
