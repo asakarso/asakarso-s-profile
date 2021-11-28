@@ -4,7 +4,7 @@
     }
 }
 
-@media all and (max-width: 1175px) {
+@media all and (max-width: 1150px) {
     .sav {
         display: flex;
     }
