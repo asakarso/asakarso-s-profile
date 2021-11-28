@@ -17,3 +17,18 @@
         display: flex;
     }
 }
+
+@media all and (max-width: 785px) {
+
+    nav, .profile, .experience, #contact, footer  {
+        display: none;
+    }
+
+    .sav {
+        display: flex;
+    }
+
+    .sav p {
+        display: none;
+    }
+}
