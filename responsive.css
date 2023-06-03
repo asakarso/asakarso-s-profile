@@ -1,4 +1,5 @@
-@media all and (min-width: 1700px) {
+/* Larger */
+@media all and (min-width: 1629px) {
     nav, .profile, .experience, #contact, footer  {
         display: none;
     }
@@ -8,18 +9,130 @@
     }
 }
 
-@media all and (max-width: 1175px) {
-    nav, .profile, .experience, #contact, footer  {
-        display: none;
+/* Untuk Tablet */
+@media all and (max-width: 1378px) {
+
+    .prof {
+        padding: 0;
+        flex-direction: column;
+        margin-top: 80px;
     }
-    
-    .sav {
-        display: flex;
+
+    .ex-top {
+        margin-top: 25%;
     }
 }
 
-@media all and (max-width: 785px) {
+@media all and (max-width: 1004px) {
 
+    .prof-right img {
+        display: none;
+    }
+
+    .ex-top {
+        margin-top: 7%;
+    }
+
+    .prof-left {
+        width: 100%;
+        text-align: center;
+        margin: 70px auto 120px auto;
+    }
+
+    .prof, .profile, .prof-left a {
+        margin: auto;
+    }
+
+    .profile {
+        height: 339px;
+    }
+}
+  
+/* Untuk Smartphone */
+@media all and (max-width: 769px) {
+    .container {
+        padding: 5%;
+    }
+
+    .nav-right {
+        margin: 0;
+    }
+
+    .nav {
+        padding: 0 5%;
+    }
+
+    #project {
+        flex-direction: column;
+    }
+
+    .projects {
+        width: 80%;
+    }
+
+    .project img, .projects p {
+        width: 100%;
+    }
+
+    #experiences {
+        padding: 0;
+    }
+
+    #experiences .container {
+        padding-top: 5%;
+    }
+
+}
+
+@media all and (max-width: 530px) {
+    nav {
+        height: 100px;
+        padding-top: 5px;
+    }
+
+    .nav-right {
+        float: left;
+        padding-left: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-right a {
+        padding: 7px 7px 2px 0;
+        text-decoration: underline;
+    }
+
+    .prof-left {
+        margin-top: 90px;
+    }
+
+    .ex-top {
+        margin-top: 150px;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    footer div {
+        margin-top: 20%;
+    }
+
+}
+
+@media all and (max-width: 373px) {
+    .ex-top {
+        margin-top: 200px;
+    }
+
+}
+
+/* Less */
+@media all and (max-width: 311px) {
     nav, .profile, .experience, #contact, footer  {
         display: none;
     }
@@ -31,4 +144,5 @@
     .sav p {
         display: none;
     }
+
 }
